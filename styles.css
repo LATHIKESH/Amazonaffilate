@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: #0073e6;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.featured-products {
+    padding: 2em;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 45%;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.affiliate-link {
+    display: inline-block;
+    background: #ff9900;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    margin-top: 1em;
+}
