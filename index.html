@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amzdeals_LK</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome 5.15.1 CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
 </head>
 <body>
     <header>
@@ -14,8 +16,23 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="category.html?category=mobiles">Mobiles</a></li>
                 <li><a href="category.html?category=home-appliances">Home Appliances</a></li>
-                <li><a href="category.html?category=accessories">Accessories</a></li>
-                <li><a href="category.html?category=beauty-products">Beauty Products</a></li>
+                <li class="dropdown">
+                    <a>Accessories</a>
+                    <div class="dropdown-content">
+                        <a href="category.html?subcategory=mobile-accessories">Mobile Accessories</a>
+                        <a href="category.html?subcategory=laptop-accessories">Laptop Accessories</a>
+                        <a href="category.html?subcategory=machine-accessories">Machine Accessories</a>
+                    </div>
+                </li>
+                <li><a href="category.html?category=watches">Watches</a></li>
+                <li class="dropdown">
+                    <a>Beauty Products</a>
+                    <div class="dropdown-content">
+                        <a href="category.html?subcategory=face">Face</a>
+                        <a href="category.html?subcategory=skin">Skin</a>
+                        <a href="category.html?subcategory=hair">Hair</a>
+                    </div>
+                </li>
                 <li><a href="category.html?category=sports">Sports</a></li>
                 <li><a href="category.html?category=groceries">Groceries</a></li>
                 <li><a href="category.html?category=furniture">Furniture</a></li>
@@ -28,6 +45,7 @@
                 <div class="slide"><img src="siteimg/b1.jpg" alt="Banner 1"></div>
                 <div class="slide"><img src="siteimg/b2.jpg" alt="Banner 2"></div>
                 <div class="slide"><img src="siteimg/b3.jpg" alt="Banner 3"></div>
+                <div class="slide"><img src="siteimg/b4.jpg" alt="Banner 4"></div>
             </div>
         </section>
         <section class="categories">
@@ -69,7 +87,33 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 My Best Gadgets. All rights reserved.</p>
+        <div class="connect-with-us">
+            <h3>Connect with Us</h3>
+            <div class="social-media">
+                <div class="wrapper">
+                    <a href="#" class="icon facebook">
+                      <div class="tooltip">Facebook</div>
+                      <span><i class="fab fa-facebook-f"></i></span>
+                    </a>
+                    <a href="#" class="icon twitter">
+                      <div class="tooltip">Twitter</div>
+                      <span><i class="fab fa-telegram"></i></span>
+                    </a>
+                    <a href="#" class="icon instagram">
+                      <div class="tooltip">Instagram</div>
+                      <span><i class="fab fa-instagram"></i></span>
+                    </a>
+                    <a href="#" class="icon whatsapp">
+                      <div class="tooltip">Whatsapp</div>
+                      <span><i class="fab fa-whatsapp"></i></span>
+                    </a>
+                    <a href="#" class="icon youtube">
+                      <div class="tooltip">Youtube</div>
+                      <span><i class="fab fa-youtube"></i></span>
+                    </a>
+                  </div>
+        </div>
+        <p>&copy;Amzdeals_LK. All rights reserved.</p>
     </footer>
     <script src="scripts.js"></script>
 </body>
