@@ -14,9 +14,26 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="category.html?category=mobiles">Mobiles</a></li>
                 <li><a href="category.html?category=home-appliances">Home Appliances</a></li>
-                <li><a href="category.html?category=accessories">Accessories</a></li>
+                <li class="dropdown">
+                    <a>Accessories</a>
+                    <div class="dropdown-content">
+                        <a href="category.html?category=mobile-accessories"> Mobile Accessories
+                        </a>
+                        <a href="category.html?category=laptop-accessories"> Laptop Accessories
+                        </a>
+                        <a href="category.html?category=machine-accessories"> Machine Accessories
+                        </a>
+                    </div>
+                </li>
                 <li><a href="category.html?category=watches">Watches</a></li>
-                <li><a href="category.html?category=beauty-products">Beauty Products</a></li>
+                <li class="dropdown">
+                    <a>Beauty Products</a>
+                    <div class="dropdown-content">
+                        <a href="category.html?subcategory=face">Face</a>
+                        <a href="category.html?subcategory=skin">Skin</a>
+                        <a href="category.html?subcategory=hair">Hair</a>
+                    </div>
+                </li>
                 <li><a href="category.html?category=sports">Sports</a></li>
                 <li><a href="category.html?category=groceries">Groceries</a></li>
                 <li><a href="category.html?category=furniture">Furniture</a></li>
@@ -24,14 +41,13 @@
         </nav>
     </header>
     <main>
-        <h3 id="category-title"><center>Category</center></h3>
+        <div class="banner">
+            <h3 id="category-title">Category</h3>
+        </div>
         <div class="product-grid" id="products">
             <!-- Product items will be injected here by JavaScript -->
         </div>
     </main>
-    <!-- <footer>
-        <p>&copy; 2024 My Best Gadgets. All rights reserved.</p>
-    </footer> -->
     <script src="scripts.js"></script>
 </body>
 </html>
